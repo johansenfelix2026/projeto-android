@@ -198,12 +198,14 @@ ul {
 
     list-style-position: inside;
     columns: 2;
+    text-align: justify;
+    width: -5px;
 }
 
 aside {
 
     background-color: var(--cor1);
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px black;
 }
