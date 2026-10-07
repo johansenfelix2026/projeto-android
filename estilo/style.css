@@ -198,14 +198,11 @@ aside > ul {
     columns: 2; /* Mantém 2 colunas em telas grandes */
     column-gap: 20px; /* Adiciona uma folga segura entre as colunas */
     padding: 10px;
+    font-size: 13px;
+    
 }
 
-/* Ajuste específico para Celular (telas menores que 600px) */
-@media (max-width: 600px) {
-    aside > ul {
-        columns: 1 !important; /* Força o celular a usar apenas uma coluna */
-    }
-}
+
 
 aside {
     background-color: var(--cor1);
