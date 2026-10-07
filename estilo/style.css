@@ -203,7 +203,7 @@ aside > ul {
 /* Ajuste específico para Celular (telas menores que 600px) */
 @media (max-width: 600px) {
     aside > ul {
-        columns: 1; /* Muda para 1 coluna no celular para não quebrar o texto */
+        columns: 1 !important; /* Força o celular a usar apenas uma coluna */
     }
 }
 
